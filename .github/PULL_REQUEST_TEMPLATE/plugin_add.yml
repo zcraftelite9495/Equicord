@@ -1,0 +1,20 @@
+name: Plugins - Add a Plugin
+description: Adds a new plugin
+title: "[Add] "
+labels: ["plugin"]
+body:
+    - type: textarea
+      id: description
+      attributes:
+          label: Test
+          description: Test
+          placeholder: Test
+      validations:
+          required: true
+
+    - type: textarea
+      id: steps
+      attributes:
+          label: Steps to reproduce
+      validations:
+          required: true
